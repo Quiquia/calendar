@@ -1,0 +1,13 @@
+.calendarStatus {
+  display: inline-flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.calendarStatus-navigation {
+  /* border: 1px solid green; */
+}
+
+.calendarStatus-date {
+  font: var(--subtitle1);
+}

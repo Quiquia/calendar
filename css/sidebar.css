@@ -1,0 +1,13 @@
+@import "./mini-calendar.css";
+@import "./search-person.css";
+@import "./homework.css";
+
+.sidebar {
+}
+
+.sidebar-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}

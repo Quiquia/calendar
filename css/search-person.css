@@ -1,0 +1,29 @@
+.searchPerson {
+  max-inline-size: 12.25rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.searchPerson i {
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(1rem, 80%);
+}
+
+.searchPerson-input {
+  box-sizing: border-box;
+  background-color: var(--gray10);
+  font: var(--body1-regular);
+  width: 100%;
+  block-size: 2.5rem;
+  padding-block: 0.72rem;
+  padding-inline-start: 1rem;
+  border: none;
+}
+
+.searchPerson-input::placeholder {
+  padding-inline-start: 1.5rem;
+}
